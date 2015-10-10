@@ -8,5 +8,6 @@ class Student(models.Model):
 	interests = models.TextField()
 	registered_date = models.DateField(auto_now=False, auto_now_add=True)
 	last_update = models.DateField(auto_now=True, auto_now_add=False)
+    
 	def _str_(self):
 		return self.fullname
