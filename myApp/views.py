@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms imoport StudentForm
+from .forms import StudentForm
 
 # Create your views here.
 def index(request):
